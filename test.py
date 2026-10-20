@@ -11,3 +11,5 @@ df = (
       .drop_duplicates()
 )
 print(df.to_markdown(index=False))
+
+df.to_csv("bereinigte_namen.csv", sep=";", index=False, encoding="utf-8")
